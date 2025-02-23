@@ -4,8 +4,5 @@ package airportinfo
 func IsValidAirport(code string) bool {
 	return NorthAmericaAirports[code] ||
 		EuropeAirports[code] ||
-		AsiaAirports[code] ||
-		SouthAmericaAirports[code] ||
-		AfricaAirports[code] ||
-		OceaniaAirports[code]
+		AsiaAirports[code]
 }

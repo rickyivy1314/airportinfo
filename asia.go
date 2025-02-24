@@ -2,10 +2,10 @@ package airportinfo
 
 // AsiaAirports is a map of valid airport codes in Asia
 var AsiaAirports = map[string]bool{
-	"HND": true,
-	"PEK": true,
-	"DXB": true,
-	"HKG": true,
-	"SIN": true,
+	"TPE": true,
+	"TSA": true,
+	//"DXB": true,
+	//"HKG": true,
+	//"SIN": true,
 	// Add more Asian airport codes here
 }
